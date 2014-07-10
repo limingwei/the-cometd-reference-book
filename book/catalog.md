@@ -1,5 +1,5 @@
-* [目录](preface.md)
-* 前言
+* 目录
+* [前言](preface.md)
 * 1. CometD商业支持服务
 * 2. 贡献给ComentD
 * 3. 安装
