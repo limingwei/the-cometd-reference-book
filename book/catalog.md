@@ -1,4 +1,4 @@
-* 目录
+* [目录](preface.md)
 * 前言
 * 1. CometD商业支持服务
 * 2. 贡献给ComentD
