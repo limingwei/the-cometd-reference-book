@@ -15,8 +15,6 @@
  - 4.1. [日志](4/4.1.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 4.1.1. 启用调试日志记录的JavaScript库中
  - &nbsp;&nbsp;&nbsp;&nbsp; 4.1.2. 启用调试日志记录的Java服务器库中
-
-
 * 5. 底漆
  - 5.1. 准备
  - 5.2. 设置项目
