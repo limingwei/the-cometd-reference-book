@@ -26,3 +26,7 @@ CometD使一个使用Ajax的称为推技术模式彗星，而且还采用了新�
 通过联系邮件列表或报告问题帮忙的文档。
 
 传播有关CometD这个词在您的组织。
+
+http://docs.cometd.org/3/reference/#_preface
+
+https://github.com/limingwei/the-cometd-reference-book/blob/master/book/catalog.md
