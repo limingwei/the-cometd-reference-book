@@ -20,113 +20,113 @@
 * 5. 底漆
  - 5.1. 准备
  - 5.2. 设置项目
- - 5.2.1. Maven的方式
- - 5.2.2. 非Maven的路
- - 5.2.3. 详细设置
+ - &nbsp;&nbsp;&nbsp;&nbsp; 5.2.1. Maven的方式
+ - &nbsp;&nbsp;&nbsp;&nbsp; 5.2.2. 非Maven的路
+ - &nbsp;&nbsp;&nbsp;&nbsp; 5.2.3. 详细设置
 * 6. 概念和体系结构
  - 6.1. 释义
- - 6.1.1. 通道定义
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.1.1. 通道定义
  - 6.2. 高级别视图
  - 6.3. 较低级别视图
- - 6.3.1. 会议
- - 6.3.2. 服务器
- - 6.3.3. 听众
- - 6.3.4. 消息处理
- - 6.3.5. 线程
- - 6.3.6. 应用程序的交互
- - 6.3.7. 贝叶协议
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.1. 会议
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.2. 服务器
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.3. 听众
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.4. 消息处理
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.5. 线程
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.6. 应用程序的交互
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.7. 贝叶协议
 * 7. JavaScript库
  - 7.1. 配置和初始化
- - 7.1.1. 配置和初始化多个对象
- - 7.1.2. 在多个对象扩展配置
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.1.1. 配置和初始化多个对象
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.1.2. 在多个对象扩展配置
  - 7.2. 握手
  - 7.3. 注册和取消注册
- - 7.3.1. 梅塔通道
- - 7.3.2. 服务渠道
- - 7.3.3. 广播频道
- - 7.3.4. 认购人与听众
- - 7.3.5. 动态重新订阅
- - 7.3.6. 听众和订阅服务器异常处理
- - 7.3.7. 通配符订阅
- - 7.3.8. 梅塔频道列表
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.1. 梅塔通道
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.2. 服务渠道
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.3. 广播频道
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.4. 认购人与听众
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.5. 动态重新订阅
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.6. 听众和订阅服务器异常处理
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.7. 通配符订阅
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.8. 梅塔频道列表
  - 7.4. 出版
  - 7.5. 断开
- - 7.5.1. 短时间的网络故障
- - 7.5.2. 龙网络故障或服务器故障
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.5.1. 短时间的网络故障
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.5.2. 龙网络故障或服务器故障
  - 7.6. 消息配料
  - 7.7. JavaScript的运输机
- - 7.7.1. 的长轮询运输
- - 7.7.2. 该回调轮询运输
- - 7.7.3. 该WebSocket的运输
- - 7.7.4. 注销运输机
- - 7.7.5. 跨域模式
-* 8.Java库
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.1. 的长轮询运输
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.2. 该回调轮询运输
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.3. 该WebSocket的运输
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.4. 注销运输机
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.5. 跨域模式
+* 8. Java库
  - 8.1. CometD的Java库和Servlet 3.0
  - 8.2. 客户端库
- - 8.2.1. 握手
- - 8.2.2. 注册和取消注册
- - 8.2.3. 出版
- - 8.2.4. 断开
- - 8.2.5. 客户端运输机
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.1. 握手
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.2. 注册和取消注册
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.3. 出版
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.4. 断开
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.5. 客户端运输机
  - 8.3. 服务器库
- - 8.3.1. 配置Java服务器
- - 8.3.2. 配置BayeuxServer
- - 8.3.3. 使用服务
- - 8.3.4. 授权
- - 8.3.5. 认证
- - 8.3.6. 服务器频道授权人
- - 8.3.7.服务器运输机
- - 8.3.8.上下文信息
- - 8.3.9.懒惰的通道及信息
- - 8.3.10.多个会话
- - 8.3.11.JMX集成
- - 8.4.JSON库
- - 8.4.1.JSONContext API
- - 8.4.2.移植性考量
- - 8.4.3.JSON对象的反序列化定制
- - 8.5.可扩展性集群与奥尔特
- - 8.5.1.典型的基础设施
- - 8.5.2.术语
- - 8.5.3.奥尔特集群
- - 8.5.4.常见的配置
- - 8.5.5.自动发现配置
- - 8.5.6.静态发现配置
- - 8.5.7.会员组织
- - 8.5.8.认证
- - 8.5.9.广播消息转发
- - 8.6.塞提
- - 8.6.1.配置塞提
- - 8.6.2.关联和超脱的用户
- - 8.6.3.听力存在消息
- - 8.6.4.发送消息
- - 8.7.分布式对象和服务
- - 8.7.1.OortObject
- - 8.7.2.OortService
- - 8.7.3.OortObject和OortService权衡
-* 9.扩展
- - 9.1.编写扩展
- - 9.2.注册扩展
- - 9.3.扩展异常处理
- - 9.4.活动延期
- - 9.4.1.启用扩展
- - 9.4.2.启用扩展仅适用于一个特定的ServerSession
- - 9.5.消息确认延长
- - 9.5.1.启用服务器端的消息确认延期
- - 9.5.2.启用客户端消息确认延期
- - 9.5.3.承认扩展详细信息
- - 9.5.4.留言订购
- - 9.5.5.演示
- - 9.6.刷新扩展
- - 9.6.1.启用用户端延伸
- - 9.6.2.配置刷新扩展
- - 9.6.3.了解刷新扩展详细信息
- - 9.7.时间戳扩展
- - 9.7.1.启用服务器端扩展
- - 9.7.2.启用用户端延伸
- - 9.8.TIMESYNC扩展
- - 9.8.1.启用服务器端扩展
- - 9.8.2.启用用户端延伸
- - 9.8.3.了解TIMESYNC扩展详细信息
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.1. 配置Java服务器
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.2. 配置BayeuxServer
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.3. 使用服务
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.4. 授权
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.5. 认证
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.6. 服务器频道授权人
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.7. 服务器运输机
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.8. 上下文信息
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.9. 懒惰的通道及信息
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.10. 多个会话
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.11. JMX集成
+ - 8.4. JSON库
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.4.1. JSONContext API
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.4.2. 移植性考量
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.4.3. JSON对象的反序列化定制
+ - 8.5. 可扩展性集群与奥尔特
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.1. 典型的基础设施
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.2. 术语
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.3. 奥尔特集群
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.4. 常见的配置
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.5. 自动发现配置
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.6. 静态发现配置
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.7. 会员组织
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.8. 认证
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.9. 广播消息转发
+ - 8.6. 塞提
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.1. 配置塞提
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.2. 关联和超脱的用户
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.3. 听力存在消息
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.4. 发送消息
+ - 8.7. 分布式对象和服务
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.7.1. OortObject
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.7.2. OortService
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.7.3. OortObject和OortService权衡
+* 9. 扩展
+ - 9.1. 编写扩展
+ - 9.2. 注册扩展
+ - 9.3. 扩展异常处理
+ - 9.4. 活动延期
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.4.1. 启用扩展
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.4.2. 启用扩展仅适用于一个特定的ServerSession
+ - 9.5. 消息确认延长
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.5.1. 启用服务器端的消息确认延期
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.5.2. 启用客户端消息确认延期
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.5.3. 承认扩展详细信息
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.5.4. 留言订购
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.5.5. 演示
+ - 9.6. 刷新扩展
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.6.1. 启用用户端延伸
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.6.2. 配置刷新扩展
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.6.3. 了解刷新扩展详细信息
+ - 9.7. 时间戳扩展
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.7.1. 启用服务器端扩展
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.7.2. 启用用户端延伸
+ - 9.8. TIMESYNC扩展
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.8.1. 启用服务器端扩展
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.8.2. 启用用户端延伸
+ - &nbsp;&nbsp;&nbsp;&nbsp; 9.8.3. 了解TIMESYNC扩展详细信息
 
 * 附录A：建筑
  - 要求
