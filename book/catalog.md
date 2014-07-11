@@ -21,18 +21,18 @@
  - &nbsp;&nbsp;&nbsp;&nbsp; 5.2.1. [Maven的方式](5/5.2.1.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 5.2.2. [非Maven的路](5/5.2.2.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 5.2.3. [详细设置](5/5.2.3.md)
-* 6. 概念和体系结构
- - 6.1. 释义
- - &nbsp;&nbsp;&nbsp;&nbsp; 6.1.1. 通道定义
- - 6.2. 高级别视图
- - 6.3. 较低级别视图
- - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.1. 会议
- - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.2. 服务器
- - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.3. 听众
- - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.4. 消息处理
- - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.5. 线程
- - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.6. 应用程序的交互
- - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.7. 贝叶协议
+* 6. [概念和体系结构](6/6.0.md)
+ - 6.1. [释义](6/6.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.1.1. [通道定义](6/6.1.1.md)
+ - 6.2. [高级别视图](6/6.2.md)
+ - 6.3. [较低级别视图](6/6.3.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.1. [会议](6/6.3.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.2. [服务器](6/6.3.2.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.3. [听众](6/6.3.3.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.4. [消息处理](6/6.3.4.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.5. [线程](6/6.3.5.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.6. [应用程序的交互](6/6.3.6.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.7. [贝叶协议](6/6.3.7.md)
 * 7. JavaScript库
  - 7.1. 配置和初始化
  - &nbsp;&nbsp;&nbsp;&nbsp; 7.1.1. 配置和初始化多个对象
