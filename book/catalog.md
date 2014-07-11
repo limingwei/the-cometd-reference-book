@@ -1,6 +1,6 @@
 * 目录
 * [前言](preface.md)
-* 1. CometD商业支持服务
+* 1. [CometD商业支持服务](book/1/1.0.md)
 * 2. 贡献给ComentD
 * 3. 安装
 * 4. 故障排除
