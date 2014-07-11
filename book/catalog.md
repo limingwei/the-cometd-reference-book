@@ -9,12 +9,12 @@
 * 3. 安装
  - 3.1. [下载和安装](3/3.1.md)
  - 3.2. [运行演示](3/3.2.md)
- - &nbsp;&nbsp;3.2.1. [使用Maven运行演示](3/3.2.1.md)
- - 3.2.2. [与运行Jetty或者另一个Servlet容器的演示](3/3.2.2)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 3.2.1. [使用Maven运行演示](3/3.2.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 3.2.2. [与运行Jetty或者另一个Servlet容器的演示](3/3.2.2)
 * 4. 故障排除
  - 4.1. [日志](4/4.1.md)
- - 4.1.1. 启用调试日志记录的JavaScript库中
- - 4.1.2. 启用调试日志记录的Java服务器库中
+ - &nbsp;&nbsp;&nbsp;&nbsp; 4.1.1. 启用调试日志记录的JavaScript库中
+ - &nbsp;&nbsp;&nbsp;&nbsp; 4.1.2. 启用调试日志记录的Java服务器库中
 
 
 * 5. 底漆
