@@ -34,73 +34,73 @@
  - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.6. [应用程序的交互](6/6.3.6.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.7. [贝叶协议](6/6.3.7.md)
 * 7. [JavaScript库](7/7.0.md)
- - 7.1. 配置和初始化
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.1.1. 配置和初始化多个对象
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.1.2. 在多个对象扩展配置
- - 7.2. 握手
- - 7.3. 注册和取消注册
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.1. 梅塔通道
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.2. 服务渠道
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.3. 广播频道
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.4. 认购人与听众
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.5. 动态重新订阅
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.6. 听众和订阅服务器异常处理
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.7. 通配符订阅
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.8. 梅塔频道列表
- - 7.4. 出版
- - 7.5. 断开
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.5.1. 短时间的网络故障
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.5.2. 龙网络故障或服务器故障
- - 7.6. 消息配料
- - 7.7. JavaScript的运输机
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.1. 的长轮询运输
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.2. 该回调轮询运输
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.3. 该WebSocket的运输
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.4. 注销运输机
- - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.5. 跨域模式
-* 8. Java库
- - 8.1. CometD的Java库和Servlet 3.0
- - 8.2. 客户端库
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.1. 握手
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.2. 注册和取消注册
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.3. 出版
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.4. 断开
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.5. 客户端运输机
- - 8.3. 服务器库
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.1. 配置Java服务器
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.2. 配置BayeuxServer
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.3. 使用服务
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.4. 授权
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.5. 认证
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.6. 服务器频道授权人
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.7. 服务器运输机
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.8. 上下文信息
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.9. 懒惰的通道及信息
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.10. 多个会话
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.11. JMX集成
- - 8.4. JSON库
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.4.1. JSONContext API
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.4.2. 移植性考量
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.4.3. JSON对象的反序列化定制
- - 8.5. 可扩展性集群与奥尔特
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.1. 典型的基础设施
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.2. 术语
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.3. 奥尔特集群
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.4. 常见的配置
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.5. 自动发现配置
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.6. 静态发现配置
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.7. 会员组织
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.8. 认证
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.9. 广播消息转发
- - 8.6. 塞提
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.1. 配置塞提
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.2. 关联和超脱的用户
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.3. 听力存在消息
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.4. 发送消息
- - 8.7. 分布式对象和服务
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.7.1. OortObject
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.7.2. OortService
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.7.3. OortObject和OortService权衡
+ - 7.1. [配置和初始化](7/7.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.1.1. [配置和初始化多个对象](7/7.1.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.1.2. [在多个对象扩展配置](7/7.1.2.md)
+ - 7.2. [握手](7/7.2.md)
+ - 7.3. [注册和取消注册](7/7.3.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.1. [梅塔通道](7/7.3.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.2. [服务渠道](7/7.3.2.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.3. [广播频道](7/7.3.3.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.4. [认购人与听众](7/7.3.4.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.5. [动态重新订阅](7/7.3.5.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.6. [听众和订阅服务器异常处理](7/7.3.6.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.7. [通配符订阅](7/7.3.6.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.3.8. [梅塔频道列表](7/7.3.8.md)
+ - 7.4. [出版](7/7.4.md)
+ - 7.5. [断开](7/7.5.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.5.1. [短时间的网络故障](7/7.5.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.5.2. [龙网络故障或服务器故障](7/7.5.2.md)
+ - 7.6. [消息配料](7/7.6.md)
+ - 7.7. [JavaScript的运输机](7/7.7.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.1. [的长轮询运输](7/7.7.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.2. [该回调轮询运输](7/7.7.2.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.3. [该WebSocket的运输](7/7.7.3.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.4. [注销运输机](7/7.7.4.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 7.7.5. [跨域模式](7/7.7.5.md)
+* 8. [Java库](8/8.0.md)
+ - 8.1. [CometD的Java库和Servlet 3.0](8/8.1.md)
+ - 8.2. [客户端库](8/8.2.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.1. [握手](8/8.2.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.2. [注册和取消注册](8/8.2.2.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.3. [出版](8/8.2.3.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.4. [断开](8/8.2.4.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.5. [客户端运输机](8/8.2.5.md)
+ - 8.3. [服务器库](8/8.3.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.1. [配置Java服务器](8/8.3.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.2. [配置BayeuxServer](8/8.3.2.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.3. [使用服务](8/8.3.3.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.4. [授权](8/8.3.4.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.5. [认证](8/8.3.5.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.6. [服务器频道授权人](8/8.3.6.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.7. [服务器运输机](8/8.3.7.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.8. [上下文信息](8/8.3.8.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.9. [懒惰的通道及信息](8/8.3.9.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.10. [多个会话](8/8.3.10.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.11. [JMX集成](8/8.3.11.md)
+ - 8.4. [JSON库](8/8.4.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.4.1. [JSONContext API](8/8.4.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.4.2. [移植性考量](8/8.4.2.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.4.3. [JSON对象的反序列化定制](8/8.4.3.md)
+ - 8.5. [可扩展性集群与奥尔特](8/8.5.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.1. [典型的基础设施](8/8.5.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.2. [术语](8/8.5.2.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.3. [奥尔特集群](8/8.5.3.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.4. [常见的配置](8/8.5.4.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.5. [自动发现配置](8/8.5.5.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.6. [静态发现配置](8/8.5.6.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.7. [会员组织](8/8.5.7.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.8. [认证](8/8.5.8.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.5.9. [广播消息转发](8/8.5.9.md)
+ - 8.6. [塞提](8/8.6.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.1. [配置塞提](8/8.6.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.2. [关联和超脱的用户](8/8.6.2.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.3. [听力存在消息](8/8.6.3.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.6.4. [发送消息](8/8.6.4.md)
+ - 8.7. [分布式对象和服务](8/8.7.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.7.1. [OortObject](8/8.7.1.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.7.2. [OortService](8/8.7.2.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.7.3. [OortObject和OortService权衡](8/8.7.3.md)
 * 9. 扩展
  - 9.1. 编写扩展
  - 9.2. 注册扩展
