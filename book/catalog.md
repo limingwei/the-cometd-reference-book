@@ -62,7 +62,7 @@
  - 8.1. [CometD的Java库和Servlet 3.0](8/8.1.md)
  - 8.2. [客户端库](8/8.2.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.1. [握手](8/8.2.1.md)
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.2. [注册和取消注册](8/8.2.2.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.2. [订阅和取消订阅](8/8.2.2.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.3. [出版](8/8.2.3.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.4. [断开](8/8.2.4.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.5. [客户端运输机](8/8.2.5.md)
