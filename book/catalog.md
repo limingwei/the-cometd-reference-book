@@ -33,7 +33,7 @@
  - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.5. [线程](6/6.3.5.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.6. [应用程序的交互](6/6.3.6.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 6.3.7. [贝叶协议](6/6.3.7.md)
-* 7. JavaScript库
+* 7. [JavaScript库](7/7.0.md)
  - 7.1. 配置和初始化
  - &nbsp;&nbsp;&nbsp;&nbsp; 7.1.1. 配置和初始化多个对象
  - &nbsp;&nbsp;&nbsp;&nbsp; 7.1.2. 在多个对象扩展配置
