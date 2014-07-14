@@ -65,7 +65,7 @@
  - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.2. [订阅和取消订阅](8/8.2.2.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.3. [发送消息](8/8.2.3.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.4. [断开连接](8/8.2.4.md)
- - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.5. [客户端运输机](8/8.2.5.md)
+ - &nbsp;&nbsp;&nbsp;&nbsp; 8.2.5. [客户端传输](8/8.2.5.md)
  - 8.3. [服务器库](8/8.3.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.1. [配置Java服务器](8/8.3.1.md)
  - &nbsp;&nbsp;&nbsp;&nbsp; 8.3.2. [配置BayeuxServer](8/8.3.2.md)
